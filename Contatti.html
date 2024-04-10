@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Emma Gerroni-Contatti</title>
+
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1.0;">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="progetti.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div id=content class="container">
+    <div class="header">
+
+      <div class="col-6">
+        <div class="logo">
+          <img src="photos/logo.png" alt="">
+        </div>
+      </div>
+
+
+      <div class="col-6">
+        <div class="dropdown">
+          <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+              <a href="index.html">Home</a>
+              <a href="progetti.html">Progetti</a>
+              <a href="about.html">About</a>
+              <a href="Contatti.html">Contatti</a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="row">
+    <div class="col-3">
+      <p class="normal-text">MAIL</p>
+      <p class="big-text">gerroniemma@gmail.com</p>
+      <p class="normal-text">INSTAGRAM</p>
+      <p class="big-text">@emmagerroni</p>
+      <p class="normal-text">BEHANCE</p>
+      <p class="big-text">emmagerroni</p>
+      <p class="normal-text">LINKEDIN</p>
+      <p class="big-text">emmagerroni</p>
+      <p class="normal-text">SE VUOI PURE VENIRE A TROVARMI...</p>
+      <p class="big-text" onclick="showMap('map1')">mi trovi qui</p>
+      <p class="big-text" onclick="showMap('map2')">oppure qui</p>
+    </div>
+
+
+<!-- Colonna per le mappe per dispositivi medio-grandi -->
+    <div class="col-9 d-none d-md-block">
+        <div class="map-container" id="map1">
+          <iframe id="iframe1" src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d90183.69643878035!2d7.5757644!3d45.0606319!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47886d22135be3a5%3A0xdaab55ae423a4485!2sCorso%20Mediterraneo%2C%20148%2C%20Torino%2C%20TO!3m2!1d45.060661499999995!2d7.6581652!5e0!3m2!1sit!2sit!4v1707477371283!5m2!1sit!2sit" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="map-container" id="map2">
+          <iframe id="iframe2" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d88988.81214079447!2d9.489186055716!3d45.81325348547495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x478400048e267c79%3A0xec82f0510398f24!2sVia%20Vittorio%20Emanuele%2C%2019%2C%20Berbenno%20BG!3m2!1d45.8132831!2d9.5715868!5e0!3m2!1sit!2sit!4v1707477339939!5m2!1sit!2sit" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Colonna per le mappe per dispositivi mobili -->
+<div id=content class="containermap">
+<div class="row">
+<div class="col-9 d-md-none">
+    <div class="map-container" id="map1">
+      <iframe id="iframe1" src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d90183.69643878035!2d7.5757644!3d45.0606319!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47886d22135be3a5%3A0xdaab55ae423a4485!2sCorso%20Mediterraneo%2C%20148%2C%20Torino%2C%20TO!3m2!1d45.060661499999995!2d7.6581652!5e0!3m2!1sit!2sit!4v1707477371283!5m2!1sit!2sit" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="map-container" id="map2">
+      <iframe id="iframe2" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d88988.81214079447!2d9.489186055716!3d45.81325348547495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x478400048e267c79%3A0xec82f0510398f24!2sVia%20Vittorio%20Emanuele%2C%2019%2C%20Berbenno%20BG!3m2!1d45.8132831!2d9.5715868!5e0!3m2!1sit!2sit!4v1707477339939!5m2!1sit!2sit" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+</div>
+</div>
+
+
+<script>
+  function showMap(mapId) {
+    var maps = document.querySelectorAll('.map-container');
+    for (var i = 0; i < maps.length; i++) {
+      if (maps[i].id === mapId) {
+        maps[i].style.display = 'block';
+      } else {
+        maps[i].style.display = 'none';
+      }
+    }
+  }
+</script>
+
+</body>
+</html>
